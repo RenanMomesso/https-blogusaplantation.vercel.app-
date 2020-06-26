@@ -19,7 +19,7 @@ class MyDocument extends Document {
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <link rel="stylesheet" href="/static/css/styles.css" />
           <link rel="stylesheet" href="/static/css/styles.css" />
-          <link rel="stylesheet" href="/node_modules/react-quill/dist/quill.snow.css" />
+          <link rel="stylesheet" href="https://unpkg.com/react-quill@1.3.3/dist/quill.snow.css"/>
           <link
             rel="stylesheet"
             href="path/to/font-awesome/css/font-awesome.min.css"
