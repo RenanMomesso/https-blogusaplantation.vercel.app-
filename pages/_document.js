@@ -1,9 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import React from 'react'
-import "../../node_modules/react-quill/dist/quill.snow.css";
-import "../../node_modules/react-quill/dist/quill.snow.css";
-import "../static/css/styles.css";
-import ".././node_modules/nprogress/nprogress.css";
+
 
 class MyDocument extends Document {
   render() {
@@ -22,8 +18,6 @@ class MyDocument extends Document {
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           />
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <link rel="stylesheet" href="/static/css/styles.css" />
-          <link rel="stylesheet" href="/static/css/styles.css" />
           <link rel="stylesheet" href="https://unpkg.com/react-quill@1.3.3/dist/quill.snow.css"/>
           <link
             rel="stylesheet"
