@@ -2,7 +2,6 @@ import fetch from "isomorphic-fetch";
 import { API } from "../config";
 import { JsonWebTokenError } from "jsonwebtoken";
 import queryString from "query-string";
-import kuerystring from "queryString";
 import { isAuth, handleResponse } from './auth';
 
 
@@ -139,7 +138,6 @@ export const updateBlog = (blog, token, slug) => {
 export const listSearch = (params) => {
   console.log("params query", params);
   const query = queryString.stringify(params);
-  const kuery = kuerystring.stringify(params);
   console.log("query certa", query);
   console.log("query errada", kuery);
   return fetch(`${API}/blog/search?${query}`, {
