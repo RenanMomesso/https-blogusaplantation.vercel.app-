@@ -6,7 +6,7 @@ import { singleBlog, listRelated } from "../../actions/blog";
 import renderHTML from "react-render-html";
 import moment from "moment";
 import SmallCard from "../../components/blog/SmallCard";
-import { API, APP_NAME, DOMAIN, FB_APP_ID } from "../../config";
+import { API,DISQUS_SHORTNAME, APP_NAME, DOMAIN, FB_APP_ID } from "../../config";
 import DisqusThread from '../../components/DisqusThread'
 
 
