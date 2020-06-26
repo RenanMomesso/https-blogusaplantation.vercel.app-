@@ -3,8 +3,8 @@ import { APP_NAME } from "../config";
 import Link from "next/link";
 import { isAuth, authenticate, signout } from "../actions/auth";
 import NGprogress from "nprogress";
-import "../public/static/css/styles.css";
-import ".././node_modules/nprogress/nprogress.css";
+// import "../public/static/css/styles.css";
+// import ".././node_modules/nprogress/nprogress.css";
 import Router, { withRouter } from "next/router";
 import Search from "./blog/Search";
 
