@@ -1,4 +1,9 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import React from 'react'
+import "../../node_modules/react-quill/dist/quill.snow.css";
+import "../../node_modules/react-quill/dist/quill.snow.css";
+import "../static/css/styles.css";
+import ".././node_modules/nprogress/nprogress.css";
 
 class MyDocument extends Document {
   render() {

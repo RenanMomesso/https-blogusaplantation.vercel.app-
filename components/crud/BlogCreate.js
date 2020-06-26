@@ -8,7 +8,7 @@ import Link from "next/link";
 import Dynamic from "next/dynamic";
 
 const ReactQuill = Dynamic(() => import("react-quill"), { ssr: false });
-import "../../node_modules/react-quill/dist/quill.snow.css";
+
 
 const CreateBlog = ({ router }) => {
   const blogFromLS = () => {
