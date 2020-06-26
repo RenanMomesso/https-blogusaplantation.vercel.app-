@@ -9,7 +9,7 @@ import { getTags } from "../../actions/tag";
 import { createBlog, singleBlog, updateBlog } from "../../actions/blog";
 
 const ReactQuill = Dynamic(() => import("react-quill"), { ssr: false });
-import "../../node_modules/react-quill/dist/quill.snow.css";
+// import "../../node_modules/react-quill/dist/quill.snow.css";
 import { API } from "../../config";
 
 const BlogUpdate = ({ router }) => {
